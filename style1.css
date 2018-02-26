@@ -1,0 +1,8 @@
+/*
+stage 1
+Thumbnails wrap but there is an ugly right whitespace.
+*/
+
+.grid-box {
+    float: left;
+}

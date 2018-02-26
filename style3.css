@@ -1,0 +1,14 @@
+/*
+stage 3
+- We have a grid, and always have a column
+and row gap but:
+ - items don't wrap which is nasty for mobile phones.
+ - gap between columns can become large and ugly on large displays.
+*/
+
+.picture-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    grid-gap 1em;
+}

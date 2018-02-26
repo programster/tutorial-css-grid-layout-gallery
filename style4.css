@@ -1,0 +1,22 @@
+/*
+ - using shorthand to create 3 columns. Easier to change this now.
+*/
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.picture-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    justify-items: center;
+    grid-gap 5px;
+    grid-row-gap: 0px;
+}
+
+.grid-box img {
+    width: 100%;
+}
